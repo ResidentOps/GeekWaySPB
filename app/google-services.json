@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "833308754760",
+    "project_id": "geekwaybonch",
+    "storage_bucket": "geekwaybonch.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833308754760:android:745ef3b5dc80b5ed1b297d",
+        "android_client_info": {
+          "package_name": "com.university.geekwayspb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRskZrrElmPilOI0sUmxIvtrPa_ZxABlo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

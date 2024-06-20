@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CityDetailsActivity">
+
+    <FrameLayout
+        android:id="@+id/frameNameLogo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageWhiteScreen"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:contentDescription="image"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/geekway_whitescreen" />
+
+        <ImageView
+            android:id="@+id/imageNameLogo"
+            android:layout_width="100sp"
+            android:layout_height="50sp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="image"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.555"
+            app:srcCompat="@drawable/geekway_logoname" />
+
+    </FrameLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameNameLogo">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraint"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="0dp"
+            app:layout_constraintBottom_toBottomOf="@+id/scrollView"
+            app:layout_constraintEnd_toEndOf="@+id/scrollView"
+            app:layout_constraintStart_toStartOf="@+id/scrollView"
+            app:layout_constraintTop_toTopOf="@+id/scrollView">
+
+            <TextView
+                android:id="@+id/textCityName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/press_start_2p"
+                android:text="НАЗВАНИЕ ГОРОДА"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/constraint" />
+
+            <TextView
+                android:id="@+id/textCityDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/oswald"
+                android:text="Описание города"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="@+id/constraint"
+                app:layout_constraintStart_toStartOf="@+id/constraint"
+                app:layout_constraintTop_toBottomOf="@+id/textCityName" />
+
+            <ImageView
+                android:id="@+id/image_viewCityPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="15dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toTopOf="@+id/buttonCancelCityDetails"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textCityDescription"
+                app:srcCompat="@drawable/ic_image" />
+
+            <Button
+                android:id="@+id/buttonCancelCityDetails"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/button_cancel_citydetails"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <Button
+                android:id="@+id/buttonTranslate"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/button_translate_citydetails"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

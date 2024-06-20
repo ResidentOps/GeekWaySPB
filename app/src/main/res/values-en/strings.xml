@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //Progress Dialog
+    <string name="text_progress">Loading…</string>
+
+    //Disconnect Dialog
+    <string name="text_disconnection">No internet connection!</string>
+    <string name="text_check_internet">Check your device connection to Wi-Fi or mobile network.</string>
+
+    //Readme
+    <string name="text_about">App information</string>
+    <string name="text_version">Version: 1.0</string>
+    <string name="text_aboutApp1">Discover the city from an unusual side!</string>
+    <string name="text_aboutApp2">Geek (from the eng. geek, "weird") - in the modern sense, a person deeply passionate about popular culture (comics, cinema, animation, video games, fantasy, etc.). A term that combines gamers, otaku, scammers, and cosplayers. This application will help every geek find places to his liking!</string>
+    <string name="text_host1">You hold themed festivals or own an unusual store, cafe or other geeky place</string>
+    <string name="text_host2">and you want it to appear here?</string>
+    <string name="text_contact_us2">Contact us:</string>
+    <string name="text_contact_us3">geekway_hosts@gmail.com</string>
+    <string name="button_ok">Ок</string>
+
+    //Nav_menu
+    <string name="text_main">Main</string>
+    <string name="text_list">Places</string>
+    <string name="text_map">Map</string>
+    <string name="text_profile">Profile</string>
+
+    //EnterActivity
+    <string name="app_name">GeekWay</string>
+    <string name="app_logo">AppLogo</string>
+    <string name="app_nameApp">GeekWaySPB</string>
+    <string name="app_name1">Geek</string>
+    <string name="app_name2">Way</string>
+    <string name="text_enter">Authorize</string>
+    <string name="editText_email_enter">E-mail</string>
+    <string name="editText_password_enter">Password</string>
+    <string name="button_enter">Enter</string>
+    <string name="text_enter_forgotpassword">Forgot your password?</string>
+    <string name="text_havenot_account">УDo not have an account yet? Register</string>
+    <string name="button_registration">Registration</string>
+    <string name="text_readme"><u>About app</u></string>
+
+    //RegistrationActivity
+    <string name="text_registration">Registration</string>
+    <string name="editText_user_name">Your name</string>
+    <string name="editText_email">Your E-mail</string>
+    <string name="editText_password">Create a password</string>
+    <string name="editText_password_confirm">Confirm password</string>
+    <string name="button_registration_account">Create profile</string>
+    <string name="text_activate_account">Do you already have an account? Sign in</string>
+    <string name="button_enter_account">Enter</string>
+
+    //ForgotPassword
+    <string name="text_forgot_password">Password recovery</string>
+    <string name="text_enter_email_forgot_password1">Enter your profile email address.</string>
+    <string name="text_enter_email_forgot_password2">A link to reset your password will be sent to it.</string>
+    <string name="editText_email_forgot_password">E-mail</string>
+    <string name="button_forgot_password_submit">Send</string>
+    <string name="button_forgot_password_cancel">Cancel</string>
+
+    //Settings
+    <string name="text_settings">Settings</string>
+    <string name="editText_name_settings">Username</string>
+    <string name="editText_email_settings">Useremail</string>
+    <string name="editText_passconf_settings">Password for confirmation</string>
+    <string name="text_reset_password_settings">Change password</string>
+    <string name="button_save_settings">Save</string>
+    <string name="button_cancel_settings">Cancel</string>
+
+    //ResetPassword
+    <string name="text_reset_password">Change password</string>
+    <string name="editText_resetpass_oldpass">Old password</string>
+    <string name="editText_resetpass_newpass">New password</string>
+    <string name="editText_resetpass_confnewpass">Confirm password</string>
+    <string name="button_save_resetpassword">Save</string>
+    <string name="button_cancel_resetpassword">Cancel</string>
+
+    //AdminActivity
+    <string name="text_admin">Administrator</string>
+    <string name="text_admin_name">Name:</string>
+    <string name="text_admin_email">E-mail:</string>
+    <string name="button_admin_database">Cities list</string>
+    <string name="button_admin_bdplaces">Places list</string>
+    <string name="button_admin_settings">Settings</string>
+    <string name="button_admin_exit">Logout</string>
+    <string name="text_admin_readme"><u>About app</u></string>
+
+    //DataBaseActivity
+    <string name="text_database">List of cities</string>
+    <string name="editText_city_search">Search city…</string>
+    <string name="button_add_city">Add city</string>
+    <string name="button_cancel_database">Back</string>
+
+    //CategoriesActivity
+    <string name="text_categories">Categories</string>
+    <string name="editText_category_search">Search category…</string>
+    <string name="button_add_category">Add category</string>
+    <string name="button_add_place">Add place</string>
+    <string name="button_cancel_categories">Back</string>
+
+    //PlacesActivity
+    <string name="text_places">Places</string>
+    <string name="editText_place_search">Search place…</string>
+    <string name="button_cancel_places">Back</string>
+
+    //EditPlaceActivity
+    <string name="text_editplace">Edit place</string>
+    <string name="text_editphoto_place">Place photo (push to add new)</string>
+    <string name="button_save_editplace">Save</string>
+    <string name="button_cancel_editplace">Cancel</string>
+
+    //AddCategoryActivity
+    <string name="text_add_category">Add category</string>
+    <string name="button_cancel_addcategory">Cancel</string>
+    <string name="editText_category_name">Category name</string>
+
+    //AddPlaceActivity
+    <string name="text_add_place">Add place</string>
+    <string name="button_cancel_addplace">Cancel</string>
+    <string name="editText_place_name">Place name</string>
+    <string name="editText_place_age">Age limit</string>
+    <string name="editText_place_description">Place description</string>
+    <string name="editText_place_address">Address (if exists)</string>
+    <string name="editText_place_web">Website (if exists)</string>
+    <string name="editText_place_public">VKontakte (if exists)</string>
+    <string name="editText_place_time">Working time (if exists)</string>
+    <string name="editText_place_telephone">Telephone (if exists)</string>
+    <string name="editText_place_lat">Lat (if exists)</string>
+    <string name="editText_place_lng">Lng (if exists)</string>
+    <string name="text_photo_place">Place photo (push to add new)</string>
+
+    //AddCityActivity
+    <string name="text_add_city">Add city</string>
+    <string name="button_add">Add</string>
+    <string name="button_cancel_addcity">Cancel</string>
+    <string name="editText_city_name">City name</string>
+    <string name="text_photo_city">City photo (push to add new)</string>
+    <string name="editText_city_description">City description</string>
+
+    //PlaceDetailsActivity
+    <string name="button_cancel_placedetails">Back to list</string>
+    <string name="text_place_age">Age limit:</string>
+    <string name="text_place_category">Category:</string>
+    <string name="text_place_city">City:</string>
+    <string name="text_place_TA">Address and working time:</string>
+    <string name="text_place_address">Address:</string>
+    <string name="text_place_time">Working time:</string>
+    <string name="text_place_contacts">Contacts:</string>
+    <string name="text_place_public">VKontakte:</string>
+    <string name="text_place_web">Web-Site:</string>
+    <string name="text_place_telephone">Telephone:</string>
+    <string name="text_place_comments">Comments:</string>
+
+    //Add Comment Dialog
+    <string name="text_add_comment">Comment</string>
+    <string name="editText_add_comment">Add comment…</string>
+    <string name="button_add_comment">Add</string>
+
+    //Profile
+    <string name="text_user">Profile</string>
+    <string name="text_user_name">Name:</string>
+    <string name="text_user_email">E-mail:</string>
+    <string name="button_favorites">Favorites</string>
+    <string name="button_user_settings">Settings</string>
+    <string name="button_user_exit">Logout</string>
+    <string name="button_readme">About app</string>
+
+    //Favorites
+    <string name="text_favorites">Favorites</string>
+    <string name="button_close_favorites">Back</string>
+
+    //Main
+    <string name="text_mainpage">Main</string>
+
+    //Map
+    <string name="text_search">Place address…</string>
+
+    //CityDetails
+    <string name="button_cancel_citydetails">Back to list</string>
+    <string name="button_translate_citydetails">Translate</string>
+    <string name="button_translate_placedetails">Translate information</string>
+
+    <string name="editcyty_text">Edit city</string>
+    <string name="editcategory_text">Edit category</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
